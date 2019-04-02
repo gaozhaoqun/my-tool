@@ -1,0 +1,35 @@
+{
+    "workbench.statusBar.visible": true,
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.activityBar.visible": false,
+    "terminal.integrated.fontFamily": "Meslo LG L DZ for Powerline",
+    "workbench.startupEditor": "newUntitledFile",
+    "window.zoomLevel": 0,
+    "explorer.confirmDelete": false, // 配置VScode终端字体
+    "editor.fontSize": 12, // 以像素为单位控制字号。
+    "explorer.confirmDragAndDrop": false,
+    "git.ignoreLimitWarning": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "files.autoGuessEncoding": true,
+    "editor.quickSuggestions": true,
+    "vetur.format.options.tabSize": 2,
+    "editor.tabSize": 2,
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": false
+    },
+    "workbench.colorTheme": "One Dark Pro Bold",
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "terminal.external.osxExec": "iTerm.app",
+    "workbench.statusBar.feedback.visible": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"  // emmmet支持JSX的
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.associations": {   // js文件关联, 另须配合 [键盘快捷方式] -> 搜索 '语言' 找到 [更改语言模式] 设置快捷键 cmd + l
+        "*.js": "javascriptreact"
+    },
+}
