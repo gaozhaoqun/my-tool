@@ -32,6 +32,8 @@
     "files.associations": {   // js文件关联, 另须配合 [键盘快捷方式] -> 搜索 '语言' 找到 [更改语言模式] 设置快捷键 cmd + l
         "*.js": "javascriptreact"
     },
+    "prettier.semi": false, // prettier格式化时, 去掉分号
+    "prettier.singleQuote": true,  // prettier格式化代码, 单引号
 }
 
 
